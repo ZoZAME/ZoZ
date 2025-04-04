@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.camera-container {
+  margin: 20px 0;
+  position: relative;
+}
+
+#camera, #photo {
+  width: 100%;
+  max-width: 640px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
+
+#canvas {
+  display: none;
+}
+
+#photo {
+  display: none;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+#status {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
